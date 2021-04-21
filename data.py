@@ -39,3 +39,5 @@ print(my_tuple)
 # all of the following are equivalent
 my_string = 'Hello'
 print(my_string)
+my_string = "Hello"
+print(my_string)
