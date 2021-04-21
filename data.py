@@ -35,3 +35,7 @@ print(my_tuple)
 # nested tuple
 my_tuple = ("mouse1", [8, 4, 6], (1, 2, 3))
 print(my_tuple)
+# defining strings in Python
+# all of the following are equivalent
+my_string = 'Hello'
+print(my_string)
