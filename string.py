@@ -41,3 +41,10 @@ def findDigitsCharsSymbols(inputString):
 inputString = "P@#yn26at^&i5v"
 print("total counts of chars, digits,and symbols \n")
 findDigitsCharsSymbols(inputString)
+
+def mixString(s1, s2):
+  s2 = s2[::-1]
+  lengthS1 = len(s1)
+  lengthS2 = len(s2)
+  length  = lengthS1 if lengthS1 > lengthS2 else lengthS2
+  resultString=""
