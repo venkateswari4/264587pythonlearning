@@ -22,7 +22,7 @@ def mix_string(s1, s2):
     res = first_char + middle_char + last_char
     print("Mix String is ", res)
 
-s1 = "America"
+s1 = "Ameri"
 s2 = "Japan"
 mix_string(s1, s2)
 
