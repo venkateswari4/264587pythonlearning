@@ -33,3 +33,5 @@ def findDigitsCharsSymbols(inputString):
   for char in inputString:
       if char.islower() or char.isupper():
           charCount += 1
+      elif char.isnumeric():
+          digitCount += 1
