@@ -37,3 +37,4 @@ def findDigitsCharsSymbols(inputString):
           digitCount += 1
       else:
           symbolCount += 1
+  print("Chars = ", charCount, "Digits = ", digitCount, "Symbol = ", symbolCount)
