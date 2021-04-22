@@ -1,9 +1,3 @@
-i=input()
-if i=="lol":
-    print("laughing out loud")
-elif i=="rofl":
-    print("rolling on the floor")
-elif i=="lmk":
-    print("let me know")
-elif i=="smh":
-    print("shaking my head")
+a = [1,1,5,2,8,8,7,10]
+s = set(a)
+print (sorted(s)[1])
