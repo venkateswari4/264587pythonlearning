@@ -35,3 +35,5 @@ def findDigitsCharsSymbols(inputString):
           charCount += 1
       elif char.isnumeric():
           digitCount += 1
+      else:
+          symbolCount += 1
