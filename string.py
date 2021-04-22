@@ -14,7 +14,7 @@ def appendMiddle(s1, s2):
   middleThree = s1[:middleIndex:]+ s2 +s1[middleIndex:]
   print("After appending new string in middle", middleThree)
 
-appendMiddle("Ault", "Kelly")
+appendMiddle("Aut", "Kelly")
 def mix_string(s1, s2):
     first_char = s1[:1] + s2[:1]
     middle_char = s1[int(len(s1) / 2):int(len(s1) / 2) + 1] + s2[int(len(s2) / 2):int(len(s2) / 2) + 1]
