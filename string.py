@@ -53,3 +53,4 @@ def mixString(s1, s2):
           resultString = resultString + s1[i]
       if (i < lengthS2):
           resultString = resultString + s2[i]
+  print(resultString)
