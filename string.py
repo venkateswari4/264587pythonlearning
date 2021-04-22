@@ -26,3 +26,7 @@ s1 = "Ameri"
 s2 = "Japan"
 mix_string(s1, s2)
 
+def findDigitsCharsSymbols(inputString):
+  charCount = 0
+  digitCount = 0
+  symbolCount = 0
