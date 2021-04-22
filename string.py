@@ -40,3 +40,4 @@ def findDigitsCharsSymbols(inputString):
   print("Chars = ", charCount, "Digits = ", digitCount, "Symbol = ", symbolCount)
 inputString = "P@#yn26at^&i5ve"
 print("total counts of chars, digits,and symbols \n")
+findDigitsCharsSymbols(inputString)
