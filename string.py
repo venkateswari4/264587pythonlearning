@@ -48,3 +48,6 @@ def mixString(s1, s2):
   lengthS2 = len(s2)
   length  = lengthS1 if lengthS1 > lengthS2 else lengthS2
   resultString=""
+  for i in range(length):
+      if (i < lengthS1):
+          resultString = resultString + s1[i]
